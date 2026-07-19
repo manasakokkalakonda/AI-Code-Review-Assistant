@@ -1,5 +1,5 @@
 import express from 'express';
-import User from '../../frontend/Day-2/backend/models/User.js';
+import User from '../../../Day-2/backend/models/User.js';
 import bcrypt from 'bcryptjs';
 
 const router = express.Router();
